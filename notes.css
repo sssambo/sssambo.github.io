@@ -1,0 +1,10 @@
+/* notes on header style
+
+Since our header takes the full width of the browser, we limited the maximum width the text container can have to 900px using the max-width property.
+This makes the div stop expanding so that the text does not get too wide.
+On a screen that is larger than 900px in width, the container div will have the width of 900px, so we align it to the center of the screen.
+Because we will reuse our container class for other sections, we defined some left and right paddings, which ensures that the child elements stay 20px away from the edges of the screen.
+margin: 0 auto; ensures that the content stays at the center of the container, irrespective of its size. */
+
+/* 
+The display property specifies the display behavior of the element. We have set it to inline-block, so that the link behaves as an inline block container.
